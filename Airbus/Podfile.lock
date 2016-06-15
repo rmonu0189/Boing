@@ -1,0 +1,13 @@
+PODS:
+  - HHUnitConverter (2.0):
+    - PESGraph
+  - PESGraph (0.2.1)
+
+DEPENDENCIES:
+  - HHUnitConverter (~> 2.0)
+
+SPEC CHECKSUMS:
+  HHUnitConverter: fdd8dcf58f9d567e832e40217689ded17bfd0c91
+  PESGraph: a2e6fcb6b8e966a54b273c03f37fa33fe4b6f92d
+
+COCOAPODS: 0.33.1

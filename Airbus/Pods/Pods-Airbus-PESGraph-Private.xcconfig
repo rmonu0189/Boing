@@ -1,0 +1,5 @@
+#include "Pods-Airbus-PESGraph.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/PESGraph" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/HHUnitConverter" "${PODS_ROOT}/Headers/PESGraph"
+OTHER_LDFLAGS = -ObjC ${PODS_AIRBUS_PESGRAPH_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
